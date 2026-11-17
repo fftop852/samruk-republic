@@ -1,0 +1,15 @@
+# secrets — never commit
+.streamlit/secrets.toml
+secrets.toml
+.env
+# python / caches
+__pycache__/
+*.pyc
+venv/
+.venv/
+.cache/
+.hf_cache/
+huggingface/
+# user documents (only the public sample may be committed)
+*.pdf
+!samples/bolashak_rules_573.pdf
